@@ -1,0 +1,21 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap');
+body{
+    font-family: 'Roboto Serif', sans-serif;
+}
+/* head section start */
+.head-color{
+    color: #18ac8c;
+}
+/* background color */
+.back-color{
+    background-color: #afd2ee;
+}
+/* button style */
+.button-style{
+    background-color: #39a8dbc9;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
