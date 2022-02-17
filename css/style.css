@@ -17,7 +17,7 @@ img{
 }
 /* button style */
 .button-style{
-    background-color: #39a8dbc9;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.616), rgba(0, 128, 0, 0.507));
     font-weight: 700;
     font-size: 20px;
     border-radius: 10px;
