@@ -3,6 +3,9 @@
 body{
     font-family: 'Roboto Serif', sans-serif;
 }
+#body-color{
+    background-color: #000000d8;
+}
 /* head section start */
 .head-color{
     color: #18ac8c;
