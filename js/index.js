@@ -23,16 +23,3 @@ document.getElementById('calculate').addEventListener('click', function () {
         document.getElementById('total-balance').innerText = income - cost;
     }
 });
-
-// blank  error
-calculate.addEventListener('click', function () {
-    if (income.value == '' || meal.value == '' || pay.value == '' || clothing.value == '') {
-        alert('Please enter your Value!!!');
-    }
-    else {
-        const cost = meal + pay + clothing;
-        document.getElementById('pocket-money').innerText = cost;
-        document.getElementById('total-balance').innerText = income - cost;
-    }
-});
-
