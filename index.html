@@ -32,26 +32,28 @@
                         <div class="text-center ">
                             <h3 class="my-4 fw-bold">Earning</h3>
                             <!-- money calculator form -->
-                            <form action="">
+                            <div>
+                                <!-- <form action=""> -->
                                 <label class="fw-bold" for="income">Earning: </label>
-                                <input type="text" id="income" name="income"><br>
+                                <input type="text" class="inputs" id="income" placeholder="Enter Amount"><br>
 
                                 <h3 class="my-4 fw-bold">Pocket Money</h3>
 
                                 <label class="fw-bold" for="meal">Meal: </label>
-                                <input type="text" id="meal" name="meal"><br><br>
+                                <input type="text" class="inputs" id="meal" placeholder="Enter Amount"><br><br>
 
                                 <label class="fw-bold" for="pay">Pay: </label>
-                                <input type="text" id="pay" name="pay"><br><br>
+                                <input type="text" class="inputs" id="pay" placeholder="Enter Amount"><br><br>
 
                                 <label class="fw-bold" for="clothing">Clothing: </label>
-                                <input type="text" id="clothing" name="clothing"><br><br>
+                                <input type="text" class="inputs" id="clothing" placeholder="Enter Amount"><br><br>
                                 <!-- button -->
-                                <input class="px-5 py-2 button-style" type="submit" value="Calculate">
-                            </form>
+                                <button id="calculate" class="px-5 py-2 button-style">Calculate</button>
+                                <!-- </form> -->
+                            </div>
                             <!-- Total Balance -->
-                            <h3 class="my-4">Total Pocket Money:<span>5500</span></h3>
-                            <h3 class="my-4">Balance:<span>4500</span></h3>
+                            <h3 class="my-4">Total Pocket Money: <span id="pocket-money">00</span></h3>
+                            <h3 class="my-4">Balance: <span id="total-balance">00</span></h3>
                         </div>
                     </div>
                 </div>
@@ -61,10 +63,10 @@
     <!---------------------------
     ------main section end-----
     ----------------------------->
-    <!-- Add js link -->
-    <script src="./js/js-style.js"></script>
     <!-- bootstrap css link -->
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Add js link -->
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

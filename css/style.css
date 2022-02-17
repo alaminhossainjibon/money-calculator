@@ -7,8 +7,12 @@ body{
 .head-color{
     color: #18ac8c;
 }
+img{
+    border-radius: 10px;
+}
 /* background color */
 .back-color{
+    border-radius: 10px;
     background-color: #afd2ee;
 }
 /* button style */
